@@ -1,0 +1,149 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-color: #e0e1dd;
+}
+
+img {
+    width: 30px;
+    height: auto;
+    margin: 20px 20px;
+}
+
+.parrafouno {
+    font-size: 2em;
+    font-weight: 900;
+    color: #1b263b;
+    margin-top: 30px;
+}
+
+main {
+    display: flex;
+    /*background-image: url("img/bg.png");
+    width: 200px;
+    height: auto;*/
+    padding: 20px 0;
+    background-color: #778da9;
+    background-image: url(img/bg-dos.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background-size: 750px;
+}
+
+.partuno {
+    margin-left: 410px;
+}
+
+.mensaje-box {
+    /*padding: 50px 0;*/
+    background-position: 30px 0;
+}
+
+.input-texto {
+    font-size: 1em;
+    text-align: justify;
+    border: 3px solid #0d1b2a;
+    border-radius: 8px;
+    margin: 80px 30px 0 20px;
+    padding: 5px 5px;
+    resize: none;
+}
+
+.mensaje {
+    font-size: 1em;
+    text-align: center;
+    border: 3px solid #0d1b2a;
+    border-radius: 8px;
+    width: 300px;
+    height: 350px;
+    padding: 10px 10px;
+    background-image: url("img/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 30px;
+    background-size: 250px;
+    resize: none;
+}
+
+.informacion {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #0b132b;
+}
+
+.botones {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.encriptar {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: white;
+    width: 30%;
+    padding: 8px 0;
+    background-color: #1b263b;
+    border: 1px solid #0d1b2a;
+    border-radius: 30px;
+}
+
+.encriptar:hover {
+    background-color: #415a77;
+    cursor: pointer;
+}
+
+.desencriptar {
+    margin-left: 20px;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: white;
+    width: 30%;
+    padding: 8px 0;
+    background-color: #1b263b;
+    border: 1px solid #0d1b2a;
+    border-radius: 30px;
+}
+
+.desencriptar:hover {
+    background-color: #415a77;
+    cursor: pointer;
+}
+
+.mensaje-box {
+    padding-top: 40px;
+}
+
+.copiar {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: white;
+    width: 40%;
+    margin-top: 10px;
+    padding: 8px 0;
+    background-color: #1b263b;
+    border: 1px solid #0d1b2a;
+    border-radius: 30px;
+}
+
+.copiar:hover {
+    background-color: #415a77;
+    cursor: pointer;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: #1b263b;
+}
+
+.parrafodos {
+    font-size: 0.8em;
+    text-align: center;
+    padding: 12px 0;
+}

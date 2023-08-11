@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <img src="img/Vector.png" alt="Logo de alura con la inicial da letra a">
+            <p class="parrafouno">Encriptador Alura</p>
+        </header>
+
+        <main>
+            <section class="partuno">
+                <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+                <!--<div id="div-desaparece">-->
+                    <h6 class="informacion">&#9888; Solo letras minúsculas y sin acentos.</h6>
+                <!--</div>-->
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="mensaje-box">
+                <textarea class="mensaje" cols="18" rows="8"></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <p class="parrafodos">&#169;Copyright 2022 | Made with &#9829; by Ismael Ospina</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
